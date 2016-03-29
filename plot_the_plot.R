@@ -59,6 +59,7 @@ plot_ze_plot <- function() {
 
   # plot(x1, y1, pch = '.', xlim = c(lim_xl, lim_xr) , ylim = c(lim_yd, lim_yu), xlab = 'random variable value',
   #   ylab = 'probability density value');
+  # dev.new(width=5, height=4)
   plot(x1, y1, pch = '.', xlim = c(lim_xl, lim_xr), xlab = 'random variable value',
     ylab = 'probability density value');
   polygon(x1, y1, col = tn_col);
